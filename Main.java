@@ -3,9 +3,6 @@ public class Main {
        /* String variabelString; */
 
         Pengguna pengguna = new Pengguna();
-        pengguna.setid(1);
-        pengguna.setusername("user");
-        pengguna.setpassword("user123");
         pengguna.login();
         pengguna.lupaPassword();
         pengguna.daftar();
