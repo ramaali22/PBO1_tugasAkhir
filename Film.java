@@ -1,3 +1,8 @@
+/* Latihan 8
+Buat sebuah class kreasi sendiri (contoh pada gambar adalah Bebas.java). 
+terapkan semua yang sudah dikerjakan sebagaimana pada class Buku.
+Hasil yang dikumpulkan ada 6 file, kumpulkan dalam bentuk link folder 
+drive/github, bukan dalam ZIP/RAR */
 public class Film {
     private int id;
     private String judul;

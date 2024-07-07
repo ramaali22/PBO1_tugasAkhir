@@ -17,14 +17,13 @@ public class Main {
         buku.printDetails();
         buku.gantiJudul();
         buku.deleteBuku();
+        buku.naikkanHarga();
+        buku.naikkanHarga(15000);
 
         Komik komik = new Komik();
-        System.out.println("Volume Komik: " + komik.getvolume());
-
-        /* Menaikkan harga komik */
         komik.naikkanHarga();
-        komik.naikkanHarga(10000);
-
+        System.out.println("Volume Komik: " + komik.getvolume());
+        
         Film film = new Film();
         film.setid(1);
         film.setjudul("Inception");

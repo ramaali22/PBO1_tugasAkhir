@@ -64,7 +64,6 @@ public class Buku {
         this.harga = harga;
     }
 
-    /* method constructor */
     public Buku(){
         System.out.println("Object telah diciptakan, constructor buku berjalan");
     }
@@ -77,6 +76,7 @@ public class Buku {
     }
 
     public void naikkanHarga(double kenaikan){
-        System.out.println("Ini method untuk menaikan harga buku dengan atribut baru");
+        this.harga += kenaikan;
+        System.out.println("Harga buku telah dinaikkan sebesar " + kenaikan);
     }
 }
